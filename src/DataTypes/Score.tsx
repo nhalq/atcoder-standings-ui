@@ -1,6 +1,6 @@
 
 export default interface Score {
     point: number;
-    penalty: number;
+    penalty: number | string;
     elapsed: number;
   }
